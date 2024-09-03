@@ -37,10 +37,10 @@
             android:layout_marginHorizontal="15dp"
             android:layout_marginVertical="8dp"
             android:background="@drawable/question_bg"
-            android:textColor="@color/white"
             android:padding="5dp"
             android:text="Question?"
             android:textAlignment="center"
+            android:textColor="@color/white"
             android:textSize="24sp" />
 
         <ScrollView
@@ -61,6 +61,7 @@
                     android:layout_marginVertical="5dp"
                     android:background="@drawable/option_bg"
                     android:text="Option 1"
+                    android:textColor="@color/black"
                     android:textSize="13sp" />
 
                 <RadioButton
@@ -70,6 +71,7 @@
                     android:layout_marginVertical="5dp"
                     android:background="@drawable/option_bg"
                     android:text="Option 2"
+                    android:textColor="@color/black"
                     android:textSize="13sp" />
 
                 <RadioButton
@@ -79,6 +81,7 @@
                     android:layout_marginVertical="5dp"
                     android:background="@drawable/option_bg"
                     android:text="Option 3"
+                    android:textColor="@color/black"
                     android:textSize="13sp" />
 
                 <RadioButton
@@ -88,6 +91,7 @@
                     android:layout_marginVertical="5dp"
                     android:background="@drawable/option_bg"
                     android:text="Option 4"
+                    android:textColor="@color/black"
                     android:textSize="13sp" />
 
             </RadioGroup>
@@ -101,10 +105,10 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="#90A4AE"
-        android:textColor="@color/white"
         android:padding="5dp"
         android:text="0/0"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,8 +122,8 @@
         android:layout_margin="15dp"
         android:background="@drawable/button_bg"
         android:text="Next"
-        android:textColor="@color/white"
         android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
