@@ -13,6 +13,7 @@
         android:layout_width="75dp"
         android:layout_height="75dp"
         android:layout_margin="15dp"
+        android:contentDescription="@string/quiz_icon"
         android:src="@drawable/quiz"
         app:layout_constraintBottom_toTopOf="@+id/quizDraft"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +39,7 @@
             android:layout_marginVertical="8dp"
             android:background="@drawable/question_bg"
             android:padding="5dp"
-            android:text="Question?"
+            android:text="@string/question"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="24sp" />
@@ -60,7 +61,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="5dp"
                     android:background="@drawable/option_bg"
-                    android:text="Option 1"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
 
@@ -70,7 +70,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="5dp"
                     android:background="@drawable/option_bg"
-                    android:text="Option 2"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
 
@@ -80,7 +79,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="5dp"
                     android:background="@drawable/option_bg"
-                    android:text="Option 3"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
 
@@ -90,7 +88,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="5dp"
                     android:background="@drawable/option_bg"
-                    android:text="Option 4"
                     android:textColor="@color/black"
                     android:textSize="13sp" />
 
@@ -106,7 +103,6 @@
         android:layout_margin="10dp"
         android:background="#90A4AE"
         android:padding="5dp"
-        android:text="0/0"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="15sp"
@@ -121,7 +117,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
         android:background="@drawable/button_bg"
-        android:text="Next"
+        android:text="@string/next"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="20sp"
